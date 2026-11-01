@@ -1,0 +1,21 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+
+# Deep learning
+torch>=2.0
+
+# ESM-2 embeddings (optional — final models do not require ESM)
+transformers>=4.35
+# fair-esm  # uncomment if using the standalone ESM package instead of transformers
+
+# Notebook + plotting
+jupyter>=1.0
+matplotlib>=3.7
+ipython>=8.0
+
+# Data files expected in ./data :
+#   placenta_annotated.csv
+#   uniprot_features_cache.csv   (auto-generated on first ESM-utility run if absent)
